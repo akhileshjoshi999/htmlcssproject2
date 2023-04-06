@@ -1,0 +1,110 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+   body{
+    background-color:  rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    padding: 10px 20px;
+    height: 850px;
+    width: 1800px;
+    
+}
+
+
+button{
+    background-color: rgb(28, 124, 130);
+    border-radius: 5px;
+    border: 3px solid rgb(29, 3, 108);
+    padding: 3px 3px;
+}
+    .header-ul{
+    
+        list-style: none;
+        text-decoration: none;
+
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items:center;
+font-size: 22px;
+text-align: justify;
+padding-left: 250px;
+padding-right: 250px;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+}
+.header-ul{
+    display: flex;
+    gap: 20px;
+}
+.lione:hover{
+    background-color: blueviolet;
+   
+}
+.litwo:hover{
+    background-color: rgb(226, 122, 43);
+   
+}
+.lithree:hover{
+    background-color: rgb(7, 64, 35);
+    color: black;
+}
+.footer-one-ul{
+   display: flex;
+    height: 50px;
+    width: 50px;
+    gap: 20px;
+    list-style: none;
+   
+}
+.hero-section{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+ word-spacing: 10px;
+    
+}
+.hero-section-two{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    
+    
+}
+.footer-one{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    align-items: center;
+    text-align: left;
+    padding-left: 250px;
+    padding-right: 320px;
+
+
+}
+span{
+    color:  rgb(151, 135, 14);
+    font-family: 'Poppins', sans-serif;
+  font-size: 23px;
+  
+
+}
